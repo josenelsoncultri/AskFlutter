@@ -50,11 +50,11 @@ class _LoginPageState extends State<LoginPage> {
             onPressed: () {
               Navigator.of(context).push(
                   MaterialPageRoute<Null>(builder: (BuildContext context) {
-                if ((login == '123') && (senha == '123')) {
-                  return new HomePage();
-                } else {
-                  return new LoginPage();
-                }
+                    if ((login == '123') && (senha == '123')) {
+                      return new HomePage();
+                    } else {
+                      return new LoginPage();
+                    }
               }));
             },
             child: Text(
