@@ -35,8 +35,7 @@ class _HomePageState extends State<HomePage>{
       drawer:Menu(),
       body: Column(
         children:<Widget>[
-          Text("Testando"),
-          Text("Teste")
+          Text("Comunidade Flutter", textAlign: TextAlign.center,)
         ]
       )
     );

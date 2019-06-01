@@ -16,8 +16,8 @@ class _PostDetail extends State<PostDetail>{
         ),
         body: ListView(
         children: <Widget>[
-          Text("Dúvida principal sobre widgets Flutter", 
-            style: TextStyle(fontSize: 22.5),
+          Text("Dúvida principal sobre widgets Flutter\n", 
+            style: TextStyle(fontSize: 28.5),
           ),
           Text("Comentário 1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n"),
           Text("Comentário 2 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n"),
